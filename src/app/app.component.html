@@ -9,6 +9,6 @@
 
 <div class="list-view__container" *ngIf="listView">
   <div class="list-view__item" *ngFor=" let currentUser of data">
-    <app-list-view > [item]="currentUser"</app-list-view>
+    <app-list-view [item]="currentUser"></app-list-view>
   </div>
 </div>
